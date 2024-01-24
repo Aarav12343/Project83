@@ -1,0 +1,43 @@
+<html>
+ <head>
+  <title>C81</title>
+   <style>
+    h1{
+
+    color: red; 
+    font-size: 40px;
+    }
+ .body_background {
+ background-image: url("bg1.jpg");
+  background-position: center;
+  background-size: cover;
+  }
+ 
+  #myCanvas{
+  border-width: 10px; 
+  background-color: white;
+  border-style:ridge;
+  }
+</style>
+</head>
+<body class="body_background">
+
+<center>
+ <div>
+     <div>
+	    <h1>Free Draw</h1>
+	    <canvas id="myCanvas" width="800" height="600">
+	    </canvas>
+     </div>
+      <div>
+          <input id = "k" type = "text" placeholder="Color of Line (write in all lowercase).">   
+          <input id = "j" type = "text" placeholder="Width of the line.">   
+      </div>
+ </div>
+</center>
+
+
+
+<script src="main.js"></script>
+</body>
+</html>
